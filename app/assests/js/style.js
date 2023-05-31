@@ -40,3 +40,18 @@ function scrollHeader() {
   }
 }
 window.addEventListener("scroll", scrollHeader);
+
+window.onload = function () {
+  document.getElementById("myButton1").addEventListener("click", function () {
+    window.open("description1.html", "_blank");
+  });
+  document.getElementById("myButton2").addEventListener("click", function () {
+    window.open("description2.html", "_blank");
+  });
+  document.getElementById("myButton3").addEventListener("click", function () {
+    window.open("description3.html", "_blank");
+  });
+  document.getElementById("myButton4").addEventListener("click", function () {
+    window.open("description4.html", "_blank");
+  });
+};
